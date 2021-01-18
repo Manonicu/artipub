@@ -1,8 +1,8 @@
-const BaseImportSpider = require('./base')
+const BaseImportSpider = require("./base");
 
 class SegmentfaultImportSpider extends BaseImportSpider {
-    async fetchArticles() {
-    }
+	async fetchArticles() {
+	}
 }
 
-module.exports = SegmentfaultImportSpider
+module.exports = SegmentfaultImportSpider;

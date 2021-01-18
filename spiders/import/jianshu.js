@@ -1,8 +1,8 @@
-const BaseImportSpider = require('./base')
+const BaseImportSpider = require("./base");
 
 class JianshuImportSpider extends BaseImportSpider {
-    async fetchArticles() {
-    }
+	async fetchArticles() {
+	}
 }
 
-module.exports = JianshuImportSpider
+module.exports = JianshuImportSpider;

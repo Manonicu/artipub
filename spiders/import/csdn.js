@@ -1,8 +1,8 @@
-const BaseImportSpider = require('./base')
+const BaseImportSpider = require("./base");
 
 class CsdnImportSpider extends BaseImportSpider {
-    async fetchArticles() {
-    }
+	async fetchArticles() {
+	}
 }
 
-module.exports = CsdnImportSpider
+module.exports = CsdnImportSpider;
